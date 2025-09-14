@@ -15,13 +15,12 @@ const PORT = process.env.PORT || 3000;
 
 app.use(helmet());
 
-// CORS configuration
 const corsOptions = {
   origin: [
-    'http://localhost:3000',  // Next.js frontend
-    'http://127.0.0.1:3000',  // Alternative localhost
-    process.env.FRONTEND_URL   // Environment variable for production
-  ].filter(Boolean), // Remove undefined values
+    'http://localhost:3000',  
+    'http://127.0.0.1:3000',  
+    "https://saa-s-notes.vercel.app"   
+  ].filter(Boolean), 
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
