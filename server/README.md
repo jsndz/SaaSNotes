@@ -64,7 +64,7 @@ npm run db:seed
 npm run dev
 ```
 
-The API will be available at `http://localhost:3000`
+The API will be available at `http://localhost:3001`
 
 ## Test Accounts
 
@@ -198,6 +198,7 @@ JWT_SECRET="your-secret-key"
 JWT_EXPIRES_IN="7d"
 PORT=3000
 NODE_ENV="development"
+FRONTEND_URL="http://localhost:3000"
 ```
 
 ## Testing the API

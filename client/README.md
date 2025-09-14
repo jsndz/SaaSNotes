@@ -72,7 +72,7 @@ npm install
 2. Set up environment variables:
 ```bash
 # Create .env.local file
-NEXT_PUBLIC_API_URL=http://localhost:3001/api
+NEXT_PUBLIC_API_URL=http://localhost:3000/api/v1
 ```
 
 3. Start the development server:

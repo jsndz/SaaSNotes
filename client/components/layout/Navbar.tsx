@@ -38,7 +38,7 @@ export function Navbar() {
             <Link href="/notes" className="flex items-center space-x-2">
               <StickyNote className="h-8 w-8 text-blue-600" />
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Notes</h1>
+                <h1 className="text-xl font-bold text-gray-900">SaaSNotes</h1>
                 <p className="text-xs text-gray-500">{tenant.name}</p>
               </div>
             </Link>
